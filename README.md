@@ -19,6 +19,7 @@ It expects:
 1. Single newline character in between the main, side, and extra
 2. Full name of each card to be typed out
 3. Number before each card name
+4. Each card to be on its own line
 
 It doesn't care about:
 1. Case
