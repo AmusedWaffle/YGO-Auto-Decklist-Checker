@@ -110,9 +110,9 @@ def isCountLegal(main, extra, side):
     
 def isBanLegal(main,extra,side):
     
-    banlistFile = open("banList.txt","w")
-    limitedlistFile = open("limitedlist.txt","w")
-    semilimitedlistFile = open("semilimitedlist.txt","w")
+    banlistFile = open("Ban-Lists/banList.txt","w")
+    limitedlistFile = open("Ban-Lists/limitedlist.txt","w")
+    semilimitedlistFile = open("Ban-Lists/semilimitedlist.txt","w")
     
     #retrieve the ban list
     banList = retrieveBanList(banlistFile,limitedlistFile,semilimitedlistFile)
